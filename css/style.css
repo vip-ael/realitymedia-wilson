@@ -1,0 +1,93 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+  
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/* Added CSS */
+nav a.sidenav-trigger {
+  display: flex;
+}
+
+.brand-logo {
+  left:50%;
+  -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+
+
+.user-view {
+  position: relative;
+  padding: 32px 8px 0;
+  margin-bottom: 0px;
+}
+
+.parallax-container .parallax-bigheight{
+  min-height: 500px;
+}
+
+.neumorphic {
+  border-radius: 28px;
+  background: #ffffff;
+  box-shadow:  29px 29px 59px #bebebe,
+               -29px -29px 59px #ffffff;
+}
+
+/* .new-color-text {
+  color: #347234 !important;
+} */
